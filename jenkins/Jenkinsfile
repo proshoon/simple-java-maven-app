@@ -1,5 +1,5 @@
 pipeline {
-    agent {devserver}
+    agent { label 'devserver' }
     options {
         skipStagesAfterUnstable()
     }
